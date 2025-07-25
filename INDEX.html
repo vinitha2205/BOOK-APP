@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOK HINT</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Savate:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="navbar">
+        <h1>BOOK</h1>
+    </div>
+    <div class="container">
+        <div class ="book-container">
+            <h2>Lazy John</h2>
+            <h5>Robert</h5>
+            <p>There was a boy named John, and he was the laziest boy in the entire town. One day, John saw their apple tree full of shiny red apples. He wanted to eat some but was too lazy to climb the tree. Instead, he lay on the grass and waited for the apples to fall down on their own. But, of course, the apples didn’t fall, and soon John was very, very hungry because he hadn’t worked for his food.
+
+Moral of the story: Laziness won’t get you anywhere. You have to work hard to get what you want!</p>
+        <button onclick="deletebook(event)">Delete</button>
+        </div>
+        
+
+    </div>
+    <div class="popup-overlay"></div>
+    <div class="popup-box">
+        <h2>Add Book</h2>
+        <form>
+           
+            <input type="text" placeholder="Book Title" id="book-title-input">
+            <input type="text" placeholder="Book Author" id="book-author-input">
+            <textarea placeholder="Short Description" id="book-description-input"></textarea>
+            <button id="add-book">Add</button>
+            <button id="cancel-popup">Cancel</button>
+
+        </form>
+    </div>
+    <button class="add-button" id="add-popup-button" >+</button>
+   
+    <script src="script.js"></script>
+</body>
+</html>
